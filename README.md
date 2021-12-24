@@ -93,11 +93,23 @@ test repo to perform some simple operations through CMD.
 
 23. Now use "git push" command , it will push all the files to your git server(cloud)
 
+            gmvsh@DESKTOP-A48UB5N MINGW64 ~/desktop/tasks/git/sample_bucket (main)
+            $ git push
+            Enumerating objects: 7, done.
+            Counting objects: 100% (7/7), done.
+            Delta compression using up to 8 threads
+            Compressing objects: 100% (4/4), done.
+            Writing objects: 100% (5/5), 690 bytes | 690.00 KiB/s, done.
+            Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+            To https://github.com/SkGouseMastanVali/sample_bucket.git
+               22c5d73..061c81e  main -> main
+
+
 
 25. -----For checking----
 26. Do some changes in your local abc.py file and hit "git status" command in gitbash, it will tell you that changes that occured
-27. You can again add updated abc.py file to git by using "git add abc.py", once done again check the status
+27. You can again add updated abc.py file to git by using "git add final.py", once done again check the status
 28. Use "git difftool HEAD" , to see the difference between your previous file data and updated file data
-29. use "git commit -m 'added abc.py updated file'"
+29. use "git commit -m 'added final.py updated file'"
 30. hit "git push"
 
