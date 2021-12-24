@@ -107,8 +107,8 @@ test repo to perform some simple operations through CMD.
 
 
 25. -----For checking----
-26. Do some changes in your local abc.py file and hit "git status" command in gitbash, it will tell you that changes that occured
-27. You can again add updated abc.py file to git by using "git add final.py", once done again check the status
+26. Do some changes in your local final.py file and hit "git status" command in gitbash, it will tell you that changes that occured
+27. You can again add updated final.py file to git by using "git add final.py", once done again check the status
 28. Use "git difftool HEAD" , to see the difference between your previous file data and updated file data
 29. use "git commit -m 'added final.py updated file'"
 30. hit "git push"
