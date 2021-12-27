@@ -6,7 +6,7 @@ usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
            [--super-prefix=<path>] [--config-env=<name>=<envvar>]
            <command> [<args>]
-
+=================================================================================
 These are common Git commands used in various situations:
 
 start a working area (see also: git help tutorial)
